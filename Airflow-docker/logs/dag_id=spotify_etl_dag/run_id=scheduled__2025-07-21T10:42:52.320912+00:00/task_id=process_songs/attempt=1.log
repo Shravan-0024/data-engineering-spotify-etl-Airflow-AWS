@@ -1,0 +1,10 @@
+{"timestamp":"2025-07-21T10:43:46.832004","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-21T10:43:46.832636","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/spotify-airflow-pipeline.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-21T10:43:46.981988Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-21T10:43:46.982605Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-21T10:43:46.983624Z","level":"info","event":"Current task name:process_songs","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-21T10:43:46.984141Z","level":"info","event":"Dag name:spotify_etl_dag","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-21T10:43:47.299050","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-07-21T10:43:47.360252Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-21T10:43:47.360697Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-21T10:43:47.362368Z","level":"info","event":"Task operator:<Task(PythonOperator): process_songs>","chan":"stdout","logger":"task"}

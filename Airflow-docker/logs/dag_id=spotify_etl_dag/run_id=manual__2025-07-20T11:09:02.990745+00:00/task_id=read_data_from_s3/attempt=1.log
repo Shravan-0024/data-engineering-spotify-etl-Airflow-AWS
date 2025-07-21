@@ -1,0 +1,12 @@
+{"timestamp":"2025-07-20T11:10:00.437064","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-20T11:10:00.438932","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/spotify-airflow-pipeline.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-20T11:10:06.010665Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T11:10:06.012305Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T11:10:06.013070Z","level":"info","event":"Current task name:read_data_from_s3","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T11:10:06.013743Z","level":"info","event":"Dag name:spotify_etl_dag","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T11:10:06.012532","level":"info","event":"Connection Retrieved 'aws-airlow-conn'","logger":"airflow.hooks.base"}
+{"timestamp":"2025-07-20T11:10:06.013647","level":"info","event":"AWS Connection (conn_id='aws-airlow-conn', conn_type='aws') credentials retrieved from login and password.","logger":"airflow.providers.amazon.aws.utils.connection_wrapper.AwsConnectionWrapper"}
+{"timestamp":"2025-07-20T11:10:21.471151","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-07-20T11:10:21.663955Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T11:10:21.666122Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T11:10:21.678724Z","level":"info","event":"Task operator:<Task(PythonOperator): read_data_from_s3>","chan":"stdout","logger":"task"}

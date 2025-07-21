@@ -1,0 +1,13 @@
+{"timestamp":"2025-07-20T13:47:22.209307","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-20T13:47:22.213005","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/spotify-airflow-orchestrate-lambda-Glue.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-20T13:47:22.459792Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T13:47:22.460214Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T13:47:22.460290Z","level":"info","event":"Current task name:check_s3_upload","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T13:47:22.460369Z","level":"info","event":"Dag name:lambda_glue_trigger_dag","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T13:47:22.460774","level":"info","event":"Poking for key : s3://spotify-etl-project-sannu/raw_data/to_process/*","logger":"airflow.task.operators.airflow.providers.amazon.aws.sensors.s3.S3KeySensor"}
+{"timestamp":"2025-07-20T13:47:22.483024","level":"info","event":"Connection Retrieved 'aws-airlow-conn'","logger":"airflow.hooks.base"}
+{"timestamp":"2025-07-20T13:47:22.483149","level":"info","event":"AWS Connection (conn_id='aws-airlow-conn', conn_type='aws') credentials retrieved from login and password.","logger":"airflow.providers.amazon.aws.utils.connection_wrapper.AwsConnectionWrapper"}
+{"timestamp":"2025-07-20T13:47:25.018457","level":"info","event":"Success criteria met. Exiting.","logger":"airflow.task.operators.airflow.providers.amazon.aws.sensors.s3.S3KeySensor"}
+{"timestamp":"2025-07-20T13:47:25.075162Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T13:47:25.075439Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-20T13:47:25.079617Z","level":"info","event":"Task operator:<Task(S3KeySensor): check_s3_upload>","chan":"stdout","logger":"task"}
